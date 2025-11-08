@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-nginx-config
+  namespace: default
+data:
+  S3_BUCKET_NAME: "my-private-bucket"
+  AWS_REGION: "us-east-1"
+  # Note: These values should be replaced with actual values during deployment

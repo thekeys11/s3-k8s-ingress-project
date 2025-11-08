@@ -1,0 +1,46 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# Helm
+charts/
+*.tgz
+
+# Docker
+.dockerignore
+
+# Secrets
+*.pem
+*.key
+secrets.yaml
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/

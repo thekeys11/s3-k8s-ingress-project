@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-proxy-config
+  namespace: s3-proxy
+data:
+  S3_BUCKET_NAME: "my-private-s3-bucket"  # Replace with your bucket name
+  AWS_REGION: "us-east-1"                  # Replace with your AWS region

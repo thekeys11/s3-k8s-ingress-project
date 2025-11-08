@@ -1,0 +1,17 @@
+apiVersion: v2
+name: s3-nginx-ingress
+description: A Helm chart to expose S3 bucket contents via Kubernetes Ingress
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+keywords:
+  - s3
+  - nginx
+  - ingress
+  - aws
+maintainers:
+  - name: Oscar
+    email: oscar@example.com
+home: https://github.com/oscar/s3-k8s-ingress-project
+sources:
+  - https://github.com/oscar/s3-k8s-ingress-project

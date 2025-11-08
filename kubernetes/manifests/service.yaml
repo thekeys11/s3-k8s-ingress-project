@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: s3-nginx-service
+  namespace: default
+  labels:
+    app: s3-nginx
+spec:
+  type: ClusterIP
+  selector:
+    app: s3-nginx
+  ports:
+  - name: http
+    port: 80
+    targetPort: http
+    protocol: TCP
+  sessionAffinity: None
